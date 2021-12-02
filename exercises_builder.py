@@ -192,7 +192,7 @@ def get_exercises(exercises_amount: int, candles_amount: int = 512, candles_size
             # x_training[i][j][3] = close
             # x_training[i][j][4] = volume
             trend, _ = trending(closings)
-            x_training.append(bars[:, 1:6])
+            x_training.append(bars[:,:6])
             y_training.append(trend)
 
             # clear the output to print in the same line
