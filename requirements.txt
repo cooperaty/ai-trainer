@@ -6,3 +6,5 @@ matplotlib
 numpy
 python-binance
 scikit-learn
+keras
+tensorflow
