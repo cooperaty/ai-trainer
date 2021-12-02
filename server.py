@@ -18,7 +18,7 @@ total_candles = 1000
 # total indicators to send in the response
 # that is, Open, High, Low, Close, Volume,
 # or well-known as OHLCV
-total_indicators = 5
+total_indicators = 6
 
 # initializes the binance client to make request to the Binance API
 # the client indeed is a global variable named "client"
